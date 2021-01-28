@@ -1,15 +1,11 @@
 # SuperCollider Extension for VS Code
 
-[![license](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://raw.githubusercontent.com/jatinchowdhury18/vscode-supercollider/master/LICENSE.md)
-
 vscode-supercollider is a [SuperCollider](https://supercollider.github.io/) 
 extension for your
 [Visual Studio Code](https://code.visualstudio.com/).
 The extension currently supports text highlighting and
 running in the VS Code terminal. For this extension to work
 properly, you must have SuperCollider already installed.
-
-Disclaimer: This extension has only been tested on Windows.
 
 ## Features
  - Syntax highlighting
@@ -26,7 +22,7 @@ Enter the setting `"supercollider.sclangCmd": "[Command to run sclang]"`.
 This will depend on your operating system, and on the default shell
 you use within vscode. Examples:
   - (Windows, default shell: powershell) `"supercollider.sclangCmd": "& \"C:\\Program Files\\SuperCollider-3.9.3\\sclang.exe\""`
-  - (OSX, default shell: bash) `"supercollider.sclangCmd": "/Applications/SuperCollider/SuperCollider.app/Contents/MacOS/sclang"`
+  - (OSX, default shell: bash) `"supercollider.sclangCmd": "/Applications/SuperCollider.app/Contents/MacOS/sclang"`
 
 4. Open a SuperCollider file (`.scd`). To run use
 `Ctrl + Shift + b`. Once your SuperCollider script

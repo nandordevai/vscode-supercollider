@@ -2,9 +2,9 @@
     "name": "vscode-supercollider",
     "displayName": "vscode-supercollider",
     "description": "Language support for the SuperCollider language",
-    "version": "0.0.2",
-    "publisher": "jatinchowdhury18",
-    "homepage": "https://github.com/jatinchowdhury18/vscode-supercollider/blob/master/README.md",
+    "version": "0.0.3",
+    "publisher": "Nandor Devai",
+    "homepage": "https://github.com/nandordevai/vscode-supercollider/",
     "license": "MIT",
     "engines": {
         "vscode": "^1.32.0"
@@ -14,7 +14,7 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/jatinchowdhury18/vscode-supercollider"
+        "url": "https://github.com/nandordevai/vscode-supercollider"
     },
     "activationEvents": [
         "onLanguage:supercollider",
